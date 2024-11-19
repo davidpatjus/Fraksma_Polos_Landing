@@ -25,8 +25,8 @@ export default function Component() {
   >([]);
   const [showForm, setShowForm] = useState(false)
   const [currentProduct, setCurrentProduct] = useState(productsData[0])
-  const [selectedColor, setSelectedColor] = useState<string | null>(null);
-  const [selectedSize, setSelectedSize] = useState<string | null>(null);
+  const [selectedColor, setSelectedColor] = useState<string | undefined>(undefined);
+  const [selectedSize, setSelectedSize] = useState<string | undefined>(undefined);
 
   const handleAddProduct = () => {
     if (selectedProducts.length < 3) {
@@ -38,8 +38,8 @@ export default function Component() {
           color: selectedColor,
         },
       ]);
-      setSelectedColor(null);
-      setSelectedSize(null);
+      setSelectedColor(undefined);
+      setSelectedSize(undefined);
     }
   };
 
