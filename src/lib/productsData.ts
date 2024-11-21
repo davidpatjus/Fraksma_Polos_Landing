@@ -73,3 +73,17 @@ export const productsData = [
     size?: string
     image: string
   }
+
+  export interface FormData {
+    name: string;
+    lastname: string;
+    phone: string;
+    email: string;
+    address: string;
+    city: string;
+  }
+
+  export interface SelectedProduct extends Product {
+    size?: string;
+    color?: string;
+  }
