@@ -1,6 +1,6 @@
 const SizeChart = () => {
   return (
-    <section className="my-16">
+    <section className="my-16" id="size">
       <div className="text-center mb-8">
         <h3 className="text-3xl font-bold mb-4 text-primary">
           Confianza Fraksma

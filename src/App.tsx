@@ -16,7 +16,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { ShoppingBag } from "lucide-react";
+import { ShoppingBag, RefreshCcw  } from "lucide-react";
 import { productsData, FormData, SelectedProduct } from "./lib/productsData";
 import Header from "./components/infrastructure/Header";
 import Hero from "./components/infrastructure/Hero";
@@ -176,10 +176,26 @@ export default function App() {
             {/* Main Product */}
             <div className="relative aspect-square rounded-xl overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200 shadow-2xl flex items-center justify-center">
               <img
-                src={currentProduct.image}
-                alt={currentProduct.name}
-                className="object-cover w-[80%] h-max transform transition-transform hover:scale-105 translate-y-4"
+              src={currentProduct.images.front}
+              alt={currentProduct.name}
+              className="object-cover w-[80%] h-max transform transition-transform hover:scale-105 translate-y-4"
+              id="product-image"
               />
+              <button
+              onClick={() => {
+                setCurrentProduct((prevProduct) => ({
+                  ...prevProduct,
+                  images: {
+                    ...prevProduct.images,
+                    front: prevProduct.images.front === currentProduct.images.front ? currentProduct.images.back : currentProduct.images.front,
+                    back: prevProduct.images.back === currentProduct.images.back ? currentProduct.images.front : currentProduct.images.back,
+                  },
+                }));
+              }}
+              className="absolute bottom-2 right-4 bg-yellow-500 text-black px-2 py-1 rounded"
+              >
+              <RefreshCcw />
+              </button>
             </div>
 
             {/* Product Carousel */}
@@ -190,7 +206,7 @@ export default function App() {
                   className="relative aspect-square rounded-lg overflow-hidden border-2 border-yellow-500"
                 >
                   <img
-                    src={product.image}
+                    src={product.images.front}
                     alt={product.name}
                     className="object-cover w-full h-full"
                   />
@@ -305,7 +321,7 @@ export default function App() {
                     className="flex items-center gap-4 bg-white p-3 rounded-lg shadow relative"
                   >
                     <img
-                      src={product.image}
+                      src={product.images.front}
                       alt={product.name}
                       className="w-16 h-16 rounded-full border object-cover"
                     />
@@ -349,7 +365,7 @@ export default function App() {
         </div>
 
         {/* Product Selection */}
-        <ScrollArea className="w-full mt-12">
+        <ScrollArea className="w-full mt-12" id="products">
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 p-4">
             {productsData.map((product) => (
               <button
@@ -362,8 +378,10 @@ export default function App() {
                 }`}
               >
                 <img
-                  src={product.image}
+                  src={product.images.front}
                   alt={product.name}
+                  onMouseEnter={(e) => (e.currentTarget.src = product.images.back)}
+                  onMouseLeave={(e) => (e.currentTarget.src = product.images.front)}
                   className="object-cover w-[75%] h-full mx-auto transform transition-transform"
                 />
               </button>
