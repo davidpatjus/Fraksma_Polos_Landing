@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Clock, Menu, X, ShoppingCart } from 'lucide-react';
+import { Clock, Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from "framer-motion";
-import { Button } from "@/components/ui/button";
 
 const EnhancedHeader: React.FC = () => {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
