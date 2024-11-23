@@ -353,7 +353,7 @@ export default function App() {
               disabled={!canProceed}
               className="w-full  bg-yellow-500 text-black hover:bg-yellow-600 transition font-bold text-lg py-6"
             >
-              Comprar Ahora - $130.000 COP
+              Comprar Ahora - $190.000 COP
             </Button>
               {!canProceed && (
                 <span className="font-semibold flex justify-center items-center text-red-600 -translate-y-4">
