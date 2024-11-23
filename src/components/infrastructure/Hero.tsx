@@ -44,7 +44,7 @@ const EnhancedHero: React.FC = () => {
             </h2>
             <p className="text-xl text-gray-200 mb-8">
               Escoge tus 3 polos favoritos por tan solo{" "}
-              <span className="font-bold text-3xl text-yellow-400">$130.000</span>
+              <span className="font-bold text-3xl text-yellow-400">$190.000</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
@@ -66,19 +66,6 @@ const EnhancedHero: React.FC = () => {
             animate={controls}
           >
             <div className="relative rounded-lg overflow-hidden shadow-2xl">
-                <video
-                ref={videoRef}
-                className="w-[1280px] h-[480px] md:h-[720px] object-cover object-center"
-                width="1280"
-                height="720"
-                loop
-                muted
-                playsInline
-                autoPlay
-                >
-                <source src="/Video de WhatsApp 2024-11-22 a las 12.46.04_3eb09d45.mp4" type="video/mp4" />
-                Tu navegador no soporta el tag de video.
-                </video>
               <div className="absolute inset-0 flex items-center justify-center">
                 <Button
                   size="icon"

@@ -136,7 +136,7 @@ export default function App() {
       *Productos en el Combo:*
       ${productList}
       
-      *Total a Pagar:* *$130.000 COP*\n
+      *Total a Pagar:* *$190.000 COP*\n
       
       *¡Gracias por tu compra! Nos pondremos en contacto contigo pronto.*
       `.trim();

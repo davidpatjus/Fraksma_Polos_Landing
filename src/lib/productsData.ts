@@ -3,7 +3,7 @@ export const productsData = [
     id: 1,
     name: "Polo Classic 1",
     price: 29.99,
-    colors: ["Negro", "Blanco", "Azul"],
+    colors: ["Naranja", "Rojo", "Azul", "Negro", "Blanco"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: {
       front: "/polo1f.png",
@@ -14,7 +14,7 @@ export const productsData = [
     id: 2,
     name: "Polo Classic 2",
     price: 29.99,
-    colors: ["Negro", "Blanco", "Azul"],
+    colors: ["Naranja", "Rojo", "Azul", "Negro", "Blanco"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: {
       front: "/polo2f.png",
@@ -25,7 +25,7 @@ export const productsData = [
     id: 3,
     name: "Polo Classic 3",
     price: 29.99,
-    colors: ["Negro", "Blanco", "Azul"],
+    colors: ["Naranja", "Rojo", "Azul", "Negro", "Blanco"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: {
       front: "/polo3f.png",
@@ -36,7 +36,7 @@ export const productsData = [
     id: 4,
     name: "Polo Classic 4",
     price: 29.99,
-    colors: ["Negro", "Blanco", "Azul"],
+    colors: ["Naranja", "Rojo", "Azul", "Negro", "Blanco"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: {
       front: "/polo4f.png",
@@ -47,7 +47,7 @@ export const productsData = [
     id: 5,
     name: "Polo Classic 5",
     price: 29.99,
-    colors: ["Negro", "Blanco", "Azul"],
+    colors: ["Naranja", "Rojo", "Azul", "Negro", "Blanco"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: {
       front: "/polo5f.png",
@@ -58,7 +58,7 @@ export const productsData = [
     id: 6,
     name: "Polo Classic 6",
     price: 29.99,
-    colors: ["Negro", "Blanco", "Azul"],
+    colors: ["Naranja", "Rojo", "Azul", "Negro", "Blanco"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: {
       front: "/polo6f.png",
@@ -69,7 +69,7 @@ export const productsData = [
     id: 7,
     name: "Polo Classic 7",
     price: 29.99,
-    colors: ["Negro", "Blanco", "Azul"],
+    colors: ["Naranja", "Rojo", "Azul", "Negro", "Blanco"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: {
       front: "/polo7f.png",
@@ -80,7 +80,7 @@ export const productsData = [
     id: 8,
     name: "Polo Classic 8",
     price: 29.99,
-    colors: ["Negro", "Blanco", "Azul"],
+    colors: ["Naranja", "Rojo", "Azul", "Negro", "Blanco"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: {
       front: "/polo8f.png",
@@ -91,7 +91,7 @@ export const productsData = [
     id: 9,
     name: "Polo Classic 9",
     price: 29.99,
-    colors: ["Negro", "Blanco", "Azul"],
+    colors: ["Naranja", "Rojo", "Azul", "Negro", "Blanco"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: {
       front: "/polo9f.png",
@@ -102,7 +102,7 @@ export const productsData = [
     id: 10,
     name: "Polo Classic 10",
     price: 29.99,
-    colors: ["Negro", "Blanco", "Azul"],
+    colors: ["Naranja", "Rojo", "Azul", "Negro", "Blanco"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: {
       front: "/polo10f.png",
@@ -113,7 +113,7 @@ export const productsData = [
     id: 11,
     name: "Polo Classic 11",
     price: 29.99,
-    colors: ["Negro", "Blanco", "Azul"],
+    colors: ["Naranja", "Rojo", "Azul", "Negro", "Blanco"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: {
       front: "/polo11f.png",
@@ -124,7 +124,7 @@ export const productsData = [
     id: 12,
     name: "Polo Classic 12",
     price: 29.99,
-    colors: ["Negro", "Blanco", "Azul"],
+    colors: ["Naranja", "Rojo", "Azul", "Negro", "Blanco"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: {
       front: "/polo12f.png",
@@ -135,7 +135,7 @@ export const productsData = [
     id: 13,
     name: "Polo Classic 13",
     price: 29.99,
-    colors: ["Negro", "Blanco", "Azul"],
+    colors: ["Naranja", "Rojo", "Azul", "Negro", "Blanco"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: {
       front: "/polo13f.png",
@@ -146,7 +146,7 @@ export const productsData = [
     id: 14,
     name: "Polo Classic 14",
     price: 29.99,
-    colors: ["Negro", "Blanco", "Azul"],
+    colors: ["Naranja", "Rojo", "Azul", "Negro", "Blanco"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: {
       front: "/polo14f.png",
@@ -157,7 +157,7 @@ export const productsData = [
     id: 15,
     name: "Polo Classic 15",
     price: 29.99,
-    colors: ["Negro", "Blanco", "Azul"],
+    colors: ["Naranja", "Rojo", "Azul", "Negro", "Blanco"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: {
       front: "/polo15f.png",
@@ -168,7 +168,7 @@ export const productsData = [
     id: 16,
     name: "Polo Classic 16",
     price: 29.99,
-    colors: ["Negro", "Blanco", "Azul"],
+    colors: ["Naranja", "Rojo", "Azul", "Negro", "Blanco"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: {
       front: "/polo16f.png",
@@ -179,7 +179,7 @@ export const productsData = [
     id: 17,
     name: "Polo Classic 17",
     price: 29.99,
-    colors: ["Negro", "Blanco", "Azul"],
+    colors: ["Naranja", "Rojo", "Azul", "Negro", "Blanco"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: {
       front: "/polo17f.png",
@@ -190,7 +190,7 @@ export const productsData = [
     id: 18,
     name: "Polo Classic 18",
     price: 29.99,
-    colors: ["Negro", "Blanco", "Azul"],
+    colors: ["Naranja", "Rojo", "Azul", "Negro", "Blanco"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: {
       front: "/polo18f.png",
@@ -201,7 +201,7 @@ export const productsData = [
     id: 19,
     name: "Polo Classic 19",
     price: 29.99,
-    colors: ["Negro", "Blanco", "Azul"],
+    colors: ["Naranja", "Rojo", "Azul", "Negro", "Blanco"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: {
       front: "/polo19f.png",
@@ -212,7 +212,7 @@ export const productsData = [
     id: 20,
     name: "Polo Classic 20",
     price: 29.99,
-    colors: ["Negro", "Blanco", "Azul"],
+    colors: ["Naranja", "Rojo", "Azul", "Negro", "Blanco"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: {
       front: "/polo20f.png",
@@ -223,7 +223,7 @@ export const productsData = [
     id: 21,
     name: "Polo Classic 21",
     price: 29.99,
-    colors: ["Negro", "Blanco", "Azul"],
+    colors: ["Naranja", "Rojo", "Azul", "Negro", "Blanco"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: {
       front: "/polo21f.png",
@@ -234,7 +234,7 @@ export const productsData = [
     id: 22,
     name: "Polo Classic 22",
     price: 29.99,
-    colors: ["Negro", "Blanco", "Azul"],
+    colors: ["Naranja", "Rojo", "Azul", "Negro", "Blanco"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: {
       front: "/polo22f.png",
@@ -245,7 +245,7 @@ export const productsData = [
     id: 23,
     name: "Polo Classic 23",
     price: 29.99,
-    colors: ["Negro", "Blanco", "Azul"],
+    colors: ["Naranja", "Rojo", "Azul", "Negro", "Blanco"],
     sizes: ["S", "M", "L", "XL", "XXL"],
     images: {
       front: "/polo23f.png",
